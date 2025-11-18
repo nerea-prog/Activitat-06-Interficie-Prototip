@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="black">#F4BFBF</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cotton_rose">#F4BFBF</color>
+    <color name="pearl_aqual">#A3D8C9</color>
+    <color name="vainilla_custard">#F7EFA5</color>
+    <color name="floral_white">#FFF8F0</color>
+    <color name="charcoal">#4A4A4A</color>
+    <color name="grey">#7A7A7A</color>
+    <color name="cotton_candy">#FF9E9E</color>
+
+
+    <color name="aquamarine">#A7F3D0</color>
+    <color name="cotton_rose_2">#FECACA</color>
+    <color name="periwinkle">#DDD6FE</color>
+    <color name="white_smoke">#F5F5F4</color>
+    <color name="icy_blue">#BFDBFE</color>
 </resources>

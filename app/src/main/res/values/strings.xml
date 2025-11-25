@@ -7,5 +7,5 @@
     <string name="password_hint">Contrasenya</string>
     <string name="register_text">registra't</string>
     <string name="guest_text">continua com invitat</string>
-    <string name="login_button">INICIA SESSIÓ</string>
+    <string name="login_button">inicia sessió</string>
 </resources>

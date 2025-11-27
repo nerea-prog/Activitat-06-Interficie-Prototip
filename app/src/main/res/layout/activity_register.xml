@@ -21,11 +21,11 @@
             android:text="@string/tvTornar"/>
 
         <TextView
-            android:id="@+id/tvRegistro"
+            android:id="@+id/tvRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:text="@string/tvRegistro"
+            android:text="@string/tvRegister"
             android:textAllCaps="true"
             android:textSize="40sp" />
 

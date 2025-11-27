@@ -7,11 +7,13 @@
     <string name="register_text">registra't</string>
     <string name="guest_text">continua com invitat</string>
     <string name="login_button">inicia sessió</string>
-    <string name="tvRegistro">Registrament</string>
+    <string name="tvRegister">Registrament</string>
     <string name="btnRegistre">Registrar-se</string>
     <string name="tvconfirmPassword">Confirma la contrasenya</string>
     <string name="tvPassword">Contrasenya</string>
     <string name="tvEmail">Email</string>
     <string name="etNom">Nom</string>
     <string name="tvTornar">Tornar</string>
+    <string name="tvCompleteRegistre">usuari\nregistrat\ncorrectament!</string>
+    <string name="btnContinue">Continuar</string>
 </resources>

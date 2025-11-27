@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Activitat-06-Interficie-Prototip</string>
-    <string name="tvRegistro">registrament</string>
+    <string name="tvRegistro">Registrament</string>
+    <string name="btnRegistre">Registrar-se</string>
+    <string name="tvconfirmPassword">Confirma la contrasenya</string>
+    <string name="tvPassword">Contrasenya</string>
+    <string name="tvEmail">Email</string>
+    <string name="etNom">Nom</string>
+    <string name="tvTornar">Tornar</string>
 </resources>

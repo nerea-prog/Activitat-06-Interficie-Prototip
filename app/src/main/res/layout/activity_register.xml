@@ -12,12 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <Button
             android:id="@+id/btnTornar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            tools:text="Tornar"
             android:text="@string/tvTornar"/>
 
         <TextView
@@ -27,52 +27,51 @@
             android:layout_marginTop="40dp"
             android:text="@string/tvRegistro"
             android:textAllCaps="true"
-            android:textSize="40sp"/>
+            android:textSize="40sp" />
 
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:hint="Nom"
-            android:padding="10dp"/>
+            android:hint="@string/etNom"
+            android:padding="10dp" />
+
         <EditText
             android:id="@+id/etGmail"
-            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="Email"
+            android:layout_marginTop="15dp"
             android:hint="@string/tvEmail"
-            android:padding="10dp"/>
+            android:padding="10dp" />
+
         <EditText
             android:id="@+id/etPassword"
-            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="Contrasenya"
+            android:layout_marginTop="15dp"
             android:hint="@string/tvPassword"
-            android:padding="10dp"/>
+            android:padding="10dp" />
+
         <EditText
             android:id="@+id/etPasswordConfirm"
-            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="Confirma la contrasenya"
+            android:layout_marginTop="15dp"
             android:hint="@string/tvconfirmPassword"
-            android:padding="10dp"/>
+            android:padding="10dp" />
+
         <Button
             android:id="@+id/btnRegistre"
-            android:layout_marginTop="40dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:paddingBottom="30dp"
-            android:paddingVertical="15dp"
+            android:layout_marginTop="40dp"
             android:paddingHorizontal="30dp"
-            tools:text="Registrarse"
+            android:paddingVertical="15dp"
+            android:paddingBottom="30dp"
             android:text="@string/btnRegistre"
-            android:textSize="20dp"
-            />
+            android:textSize="20sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

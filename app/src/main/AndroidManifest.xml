@@ -12,10 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Activitat06InterficiePrototip">
         <activity
+
+            android:name=".LoginActivity"
+
             android:name=".RegistroCorrectoActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
+
             android:exported="false" />
         <activity
             android:name=".MainActivity"

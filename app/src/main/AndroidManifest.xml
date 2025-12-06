@@ -12,14 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Activitat06InterficiePrototip">
         <activity
-
+            android:name=".ConfigurationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TasksTodayActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
-
+            android:exported="false" />
+        <activity
             android:name=".RegistroCorrectoActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
-
             android:exported="false" />
         <activity
             android:name=".MainActivity"

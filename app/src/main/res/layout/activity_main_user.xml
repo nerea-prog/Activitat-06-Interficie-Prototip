@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/floral_white"
+    tools:context=".MainUserActivity">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hola, Usuari"
+        android:textSize="24sp"
+        android:textColor="@color/charcoal"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="42dp"/>
+
+    <ImageButton
+        android:id="@+id/btnSettings"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="@string/settings"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- SEARCH BAR -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/searchInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_hint"
+        app:layout_constraintTop_toBottomOf="@+id/tvGreeting"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:inputType="text"
+            android:drawableStart=""
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- GRID 2X2 DE BOTONS -->
+    <GridLayout
+        android:id="@+id/gridButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginTop="12dp"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true"
+        app:layout_constraintTop_toBottomOf="@+id/searchInputLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/btnTareas"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:text="AVUI"/>
+
+        <Button
+            android:id="@+id/btnCalendari"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:text="TOT"/>
+
+        <Button
+            android:id="@+id/btnHabits"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:text="FET"/>
+
+        <Button
+            android:id="@+id/btnEstadistiques"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:text="CALENDARI"/>
+
+    </GridLayout>
+
+    <!-- BOTÓ PERSONALITZAR GAT -->
+    <Button
+        android:id="@+id/btnCustomizeCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gat"
+        app:layout_constraintTop_toBottomOf="@id/gridButtons"
+        app:layout_constraintEnd_toEndOf="@id/gridButtons"
+        android:layout_marginTop="8dp" />
+
+        <!-- IMATGE DE GAT -->
+        <ImageView
+        android:id="@+id/ivMainCat"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/cat_icon1"
+        android:contentDescription="@string/cat_image"
+        app:layout_constraintStart_toEndOf="@id/gridButtons"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

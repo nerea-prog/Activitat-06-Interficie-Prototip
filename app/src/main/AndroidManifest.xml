@@ -15,7 +15,22 @@
             android:name=".MainUserActivity"
             android:exported="false" />
         <activity
+            android:name=".ConfigurationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TasksTodayActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroCorrectoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

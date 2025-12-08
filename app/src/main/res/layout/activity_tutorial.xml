@@ -169,7 +169,6 @@
 
     </LinearLayout>
 
-    <!-- BOTÓ "ENTÉS" gran, centrat i una mica per sobre del bottom -->
     <Button
         android:id="@+id/btnEntes"
         android:layout_width="220dp"

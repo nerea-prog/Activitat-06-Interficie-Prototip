@@ -10,6 +10,7 @@
     <string name="login_button">inicia sessió</string>
 
     <string name="settings">configuració</string>
+    <string name="greetings">Hola, Usuari</string>
     <string name="search_hint">buscar</string>
     <string name="cat_image">gat</string>
 

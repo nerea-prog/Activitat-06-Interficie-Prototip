@@ -39,5 +39,7 @@
     <string name="tvswitchNotificacions">Activa notificicacions   </string>
     <string name="btnCancelar">Cancel·lar</string>
     <string name="btnDesar">Desar</string>
+    <string name="description_user">Foto de perfil d\'una persona\n</string>
+    <string name="test">TEST</string>
 
 </resources>

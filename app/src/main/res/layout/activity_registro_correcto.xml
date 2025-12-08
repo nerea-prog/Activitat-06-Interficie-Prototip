@@ -9,6 +9,15 @@
     android:padding="24dp"
     tools:context=".RegistroCorrectoActivity">
 
+    <Button
+        android:id="@+id/btnTestNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test"
+        android:backgroundTint="@color/brown"
+        android:layout_marginTop="16dp"/>
+
+
     <ImageView
         android:id="@+id/imgCat"
         android:layout_width="125dp"

@@ -13,6 +13,22 @@
     <string name="greetings">Hola, Usuari</string>
     <string name="search_hint">buscar</string>
     <string name="cat_image">gat</string>
+    <string name="btn_avui_text">avui</string>
+    <string name="btn_tot_text">tot</string>
+    <string name="btn_fet_text">fet</string>
+    <string name="btn_calendari_text">calendari</string>
+    <string name="btn_customize_cat">gat</string>
+    <string name="btn_customize_cat_desc">Configuració del gat</string>
+    <string name="catname_test">Chulin</string>
+    <string name="tvnewTask">Nova Tasca</string>
+    <string name="tvnewList">Nova Llista</string>
+
+    <string name="tutorial_title">tutorial ràpid</string>
+    <string name="btn_entes_text">entés</string>
+    <string name="help_avui">Aquí pots veure les tasques previstes per avui.</string>
+    <string name="help_tot">Visualitza totes les tasques pendents.</string>
+    <string name="help_fet">Consulta les tasques ja completades.</string>
+    <string name="help_calendari">Mostra les tasques organitzades per data.</string>
 
     <string name="tvRegister">Registrament</string>
     <string name="btnRegistre">Registrar-se</string>

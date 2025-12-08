@@ -21,23 +21,10 @@
         android:layout_marginTop="16dp"/>
 
 
-    <TextView
-        android:id="@+id/tvGreeting"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Hola, Usuari"
-        android:textSize="24sp"
-        android:textColor="@color/charcoal"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="42dp"/>
-
     <ImageView
-
         android:id="@+id/btnSettings"
-        android:layout_width="44dp"
-        android:layout_height="44dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:src="@drawable/ic_settings2"
         android:contentDescription="@string/settings"
         android:clickable="true"
@@ -76,7 +63,10 @@
             android:id="@+id/etSearch"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/brown"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -100,7 +90,8 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_columnWeight="1"
-            android:text="AVUI"
+            android:text="@string/btn_avui_text"
+            android:textAllCaps="true"
             android:backgroundTint="@color/brown"/>
 
         <Button
@@ -108,7 +99,8 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_columnWeight="1"
-            android:text="TOT"
+            android:text="@string/btn_tot_text"
+            android:textAllCaps="true"
             android:backgroundTint="@color/brown"/>
 
         <Button
@@ -116,7 +108,8 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_columnWeight="1"
-            android:text="FET"
+            android:text="@string/btn_fet_text"
+            android:textAllCaps="true"
             android:backgroundTint="@color/brown"/>
 
         <Button
@@ -124,7 +117,8 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_columnWeight="1"
-            android:text="CALENDARI"
+            android:text="@string/btn_calendari_text"
+            android:textAllCaps="true"
             android:backgroundTint="@color/brown"/>
 
     </GridLayout>
@@ -134,7 +128,8 @@
         android:id="@+id/btnCustomizeCat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="gat"
+        android:text="@string/btn_customize_cat"
+        android:contentDescription="@string/btn_customize_cat_desc"
         app:layout_constraintTop_toBottomOf="@id/gridButtons"
         app:layout_constraintEnd_toEndOf="@id/gridButtons"
         android:layout_marginTop="8dp"
@@ -160,7 +155,7 @@
         android:id="@+id/tvCatName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chulin"
+        android:text="@string/catname_test"
         android:textSize="24sp"
         android:textColor="@color/brown"
         android:fontFamily="@font/baloo2_extrabold"
@@ -204,7 +199,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Nova tasca"
+            android:text="@string/tvnewTask"
             android:textSize="20sp"
             android:gravity="start"
             android:clickable="true"
@@ -218,7 +213,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Nova llista"
+            android:text="@string/tvnewList"
             android:textSize="20sp"
             android:gravity="end"
             android:clickable="true"

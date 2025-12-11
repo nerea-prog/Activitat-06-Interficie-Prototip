@@ -4,7 +4,7 @@
     <string name="login_text">Accedeix al teu compte</string>
     <string name="username_hint">Usuari</string>
     <string name="password_hint">Contrasenya</string>
-    <string name="register_text">Registra't</string>
+    <string name="register_text">Registra\'t</string>
     <string name="cat_icon">Logo de TaskBuddy</string>
     <string name="guest_text">Continua com invitat</string>
     <string name="login_button">inicia sessió</string>
@@ -41,7 +41,7 @@
     <string name="btnContinue">Continuar</string>
     <string name="tvAnimacio">tu pots</string>
     <string name="tvNovaTasca">Nova tasca</string>
-    <string name="tvTasquesDeAvui">Tasques d'avui</string>
+    <string name="tvTasquesDeAvui">Tasques d\'avui</string>
     <string name="tvEditarTasca">Editar tasca:</string>
     <string name="etDescripcio">Descripció</string>
     <string name="etDataLimit">Data limit</string>

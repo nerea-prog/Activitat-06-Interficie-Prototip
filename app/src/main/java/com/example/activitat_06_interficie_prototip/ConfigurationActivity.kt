@@ -14,14 +14,14 @@ class ConfigurationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_configuration)
 
         initComponents()
         initListeners()
     }
     private fun initListeners() {
         btnTestNav.setOnClickListener {
-            val intent = Intent(this, EditActivity::class.java)
+            val intent = Intent(this, TutorialActivity::class.java)
             startActivity(intent)
         }
     }

@@ -13,14 +13,14 @@ class EditActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_edit)
 
         initComponents()
         initListeners()
     }
     private fun initListeners() {
         btnTestNav.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, ConfigurationActivity::class.java)
             startActivity(intent)
         }
     }
